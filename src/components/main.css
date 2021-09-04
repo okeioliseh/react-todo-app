@@ -1,0 +1,28 @@
+.box{
+	width : 70%;
+}
+.select.is-small{
+	float : right;
+}
+.input.is-small{
+	width : 150px;
+	height: 33.33px;
+}
+
+.button.is-info.is-small{
+	height : 33.33px;
+}
+.checkbox{
+	float: left;
+	position : relative;
+	left : 10px;
+	top : 10px;
+}
+
+.container{
+	height : 10px;
+}
+.button.is-small.is-danger.is-rounded{
+	float : left;
+	border-radius : 100%;
+}
