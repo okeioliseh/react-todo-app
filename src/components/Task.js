@@ -16,8 +16,8 @@ const Task = (props) =>{
 	return(
 		<>
 			<li className = "container">
-		
-				<FaTimesCircle className = "closebtn" color = "red" size = "30px"/>
+				
+				<FaTimesCircle onClick = {deleteTask} className = "closebtn" color = "red" size = "30px"/>
 
 
 				<input className = "checkbox" type = "checkbox"/>
