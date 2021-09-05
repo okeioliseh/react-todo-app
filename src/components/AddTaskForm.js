@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'
+import {FaPlusCircle} from 'react-icons/fa'
 
 const AddTaskForm = (props) =>{
 	const [input,setInput] = useState("")
@@ -22,6 +23,7 @@ const AddTaskForm = (props) =>{
 	return(
 		<>
 			<input className = "input is-small" type = "text" value = {input} placeholder = "Add Task" onChange = {handleInputChange}/> 
+
 			<select value = {category} onChange = {handleCategoryChange} className = "select">
 				<option>
 					React
@@ -41,9 +43,9 @@ const AddTaskForm = (props) =>{
 
 			</select>
 
-			<button className = "button is-info is-small" onClick = {send}>
-				Add
-			</button>
+			<br/>
+			<FaPlusCircle onClick = {send} className = "addbtn" color = "blue" size = "30px"/>
+			
 			<hr/>
 		</>
 	)

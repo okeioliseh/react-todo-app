@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'
+import { FaTimesCircle } from 'react-icons/fa';
 
 const Task = (props) =>{
 	const [category,setCategory] = useState(props.taskCategory)
@@ -15,9 +16,10 @@ const Task = (props) =>{
 	return(
 		<>
 			<li className = "container">
-				<button className = "button is-small is-danger is-rounded" onClick = {deleteTask}>
-					X
-				</button>
+				
+				<FaTimesCircle onClick = {deleteTask} className = "closebtn" color = "red" size = "30px"/>
+
+
 				<input className = "checkbox" type = "checkbox"/>
 
 				{props.task} 
