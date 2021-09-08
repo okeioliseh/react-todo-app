@@ -1,14 +1,19 @@
-# ReactJS Todo-App
-# Getting started
+# React todo app
+# Features :
+	users can add and delete tasks ,
+	tasks include "categories" : 
+		Normal task,
+		Python,
+		Reactjs,
+		JavaScript,
+		according to my usage
+
+# Installation
 <pre>
-  git clone this_repo
-  yarn add react-icons
-  everything else
+	git clone this_repo
+	cd this_repo
+	yarn/npm install
+	yarn/npm start
 </pre>
-# Features
-  Add task form <br/>
-  Tasks include categories that can be changed even after the task has been added <br/>
-  Tasks can be deleted <br/>
-  React Icons
 
 view it online at : <a href = "https://okeioliseh.github.io/react-todo-app">My ReactJs Todo-App</a>
